@@ -1,0 +1,409 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    padding-inline: 3rem;
+    padding-top: 1.5rem;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  header .ust {
+    display: flex;
+  }
+  header .ust .material {
+    display: none;
+  }
+  @media screen and (width < 700px) {
+    header .ust .material {
+      display: flex;
+    }
+  }
+  header nav a {
+    text-decoration: none;
+  }
+  header ul {
+    width: 25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+  }
+  @media screen and (width < 700px) {
+    header ul {
+      display: none;
+    }
+  }
+  header ul li {
+    list-style: none;
+    text-transform: capitalize;
+  }
+  header .icon {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  header .icon .icons1 {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  @media screen and (width < 700px) {
+    header .icon .icons1 {
+      display: none;
+    }
+  }
+  header .icon .icons2 {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+  }
+  header .icon p {
+    border: solid;
+    border-radius: 50%;
+    color: #fff;
+    background-color: black;
+    width: 1.7rem;
+    height: 1.7rem;
+    padding-inline: 7px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  section {
+    margin-right: 1.5rem;
+    margin-left: 1.8rem;
+    max-width: 1220px;
+    height: 30rem;
+    background-image: url("./images/Image Placeholder header.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  @media screen and (width > 1400px) {
+    section {
+      width: 100%;
+    }
+  }
+  @media screen and (width < 700px) {
+    section {
+      background-image: none;
+    }
+  }
+  @media screen and (width < 699px) {
+    section {
+      background-image: url("./images/image in mobile version.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 20rem;
+    }
+  }
+  section .oq {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3rem;
+    font-family: "Poppins", sans-serif;
+  }
+  section .blok {
+    text-align: center;
+    transform: translateY(-250px);
+    font-family: "Poppins", sans-serif;
+  }
+  @media screen and (width < 699px) {
+    section .blok {
+      transform: translateY(-180px);
+    }
+  }
+  section .blok h1 {
+    font-size: 55px;
+  }
+  
+  .Sara {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    font-family: "Inter", sans-serif;
+  }
+  @media screen and (width < 700px) {
+    .Sara {
+      display: none;
+    }
+  }
+  .Sara .Sara1 {
+    padding-left: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .Sara .Sara2 {
+    display: flex;
+    align-items: center;
+  }
+  .Sara .Sara2 .pyramids {
+    display: flex;
+    width: 184px;
+    height: 40px;
+  }
+  .Sara .Sara2 .pyramids div {
+    border: solid rgb(232, 236, 239);
+    width: 46px;
+    height: 40px;
+    padding-left: 10px;
+    padding-top: 8px;
+  }
+  
+  .blog {
+    width: 312px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid rgb(108, 114, 117);
+    border-radius: 10px;
+    display: none;
+  }
+  .blog button {
+    border: none;
+    padding-left: 1rem;
+    background-color: white;
+  }
+  
+  @media screen and (width < 700px) {
+    .blog {
+      display: flex;
+      margin: auto;
+      margin-top: 2rem;
+    }
+  }
+  .rasm {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-block: 1.5rem;
+    -moz-column-gap: 3rem;
+         column-gap: 3rem;
+    row-gap: 5rem;
+  }
+  .rasm h4 {
+    font-family: "Poppins", sans-serif;
+  }
+  .rasm img {
+    width: 100%;
+  }
+  @media screen and (width < 900px) {
+    .rasm {
+      flex-direction: column;
+      margin: auto;
+      margin-top: 50px;
+      padding-inline: 2rem;
+      row-gap: 2rem;
+    }
+    .rasm img {
+      width: 100%;
+      height: 500px;
+      -o-object-fit: cover;
+         object-fit: cover;
+    }
+  }
+  @media screen and (width < 600px) {
+    .rasm img {
+      height: 300px;
+    }
+  }
+  
+  .kerak {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .kerak button {
+    border-radius: 20px;
+    padding: 6px, 40px, 6px, 40px;
+    width: 163px;
+    height: 40px;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+  }
+  
+  footer {
+    width: 100vw;
+    height: 35rem;
+    background: rgb(20, 23, 24);
+  }
+  @media screen and (width < 560px) {
+    footer {
+      height: 50rem;
+    }
+  }
+  footer .footer_title {
+    width: 100%;
+    height: 60%;
+    background-image: url("./images/footer background image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  footer .footer_title div {
+    margin-bottom: 1.5rem;
+  }
+  footer .footer_title div h1 {
+    margin-top: 2rem;
+  }
+  @media screen and (width < 800px) {
+    footer .footer_title {
+      background-image: none;
+      background: rgb(242, 244, 246);
+    }
+  }
+  @media screen and (width < 560px) {
+    footer .futer1 {
+      height: 28%;
+    }
+  }
+  footer .futer1 .Signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    border: solid rgba(108, 114, 117, 0.5);
+    width: 40rem;
+    height: 5rem;
+    margin: auto;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: -3rem;
+  }
+  @media screen and (width < 670px) {
+    footer .futer1 .Signup {
+      width: 20rem;
+    }
+  }
+  footer .futer1 .Signup .Email {
+    padding-top: 1.5rem;
+  }
+  footer .futer1 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .futer2 {
+    width: 100%;
+    height: 39%;
+    margin: auto;
+    color: #fff;
+    padding-top: 1rem;
+  }
+  @media screen and (width < 560px) {
+    footer .foter2 {
+      height: 72%;
+    }
+  }
+  footer .futer2 ul {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    row-gap: 2rem;
+    padding-top: 1rem;
+    justify-content: space-between;
+    align-items: center;
+  }
+  @media screen and (width < 560px) {
+    footer .futer2 ul {
+      flex-direction: column;
+    }
+  }
+  footer .futer2 ul li {
+    list-style: none;
+    cursor: pointer;
+  }
+  footer .futer2 .end {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  footer .futer2 .end .Gift {
+    display: flex;
+    padding-top: 1rem;
+  }
+  footer .futer2 .end .Gift p {
+    padding-left: 1rem;
+  }
+  footer .futer2 .end .Gift img {
+    margin-bottom: 0.5rem;
+    margin-left: 2.8rem;
+  }
+  @media screen and (width < 560px) {
+    footer .futer2 .end .Gift {
+      display: block;
+    }
+    footer .futer2 .end .Gift img {
+      border: solid rgba(108, 114, 117, 0.8);
+      border-top: none;
+      border-left: none;
+      border-right: none;
+    }
+  }
+  footer .futer2 .end img {
+    border: solid rgba(108, 114, 117, 0.8);
+    margin-left: 2rem;
+    padding-right: 1rem;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+  }
+  @media screen and (width < 560px) {
+    footer .futer2 .end {
+      flex-direction: column;
+    }
+  }
+  footer .futer2 .end img {
+    width: 100px;
+    height: 30px;
+  }
+  footer .futer2 .end div {
+    display: flex;
+    align-items: center;
+  }
+  footer .link {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    border: solid rgb(108, 114, 117);
+    margin-inline: 90px;
+    margin-top: 2rem;
+    padding-top: 10px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+  }
+  footer .link div {
+    margin: 0.5rem;
+  }
+  @media screen and (width < 560px) {
+    footer .link {
+      flex-direction: column-reverse;
+    }
+  }
+  footer .link .link1 {
+    padding-left: 3rem;
+    display: flex;
+    gap: 20px;
+  }
+  @media screen and (width < 560px) {
+    footer .link .link1 {
+      flex-direction: column;
+      font-size: 12px;
+    }
+  }/*# sourceMappingURL=main.css.map */
